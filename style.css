@@ -1,0 +1,151 @@
+/*
+Theme Name: NeoBabis_StarterTheme
+Author: CreateMySite.gr
+Author URI: CreateMySite.gr
+Author: Neokazis Charalampos
+Description: Just a Simple Personal Starter Bootstrap Theme for WordPress
+Version: 1.0
+*/
+/*
+ *  ==========================================================  *
+ *  Bre - Bre... kalws ton!                                     *
+ *  Brikes tpt endiaferon kai mphkes na psakseis?               *
+ *                                                              *
+ *  E.. kalo psaksimo.                                          *
+ *  ...kai ama mporw na boh8hsw kapws steile kana mail! :-)     *
+ *                        CreateMySite.gr                       *
+ *  ==========================================================  *
+ */
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Roboto Slab', sans-serif;
+}
+/*
+h1{font-size: 1.6em; font-weight: bold;}
+h2{font-size: 1.5em;}
+h3{font-size: 1.4em;}
+p{font-size: 1.3em;}
+h4{font-size: 1.2em;}
+small{font-size: .9em;}
+.navbar {	font-size: 75%;}
+*/
+
+
+/*==================================================
+ * navbar
+ * CHANGE BOOTSTRAP NAV STYLE
+ *=================================================*/
+/* navbar */
+.navbar{
+	margin: 0;
+	padding: 0;
+}
+.navbar-mystyle {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+}
+/* title */
+.navbar-mystyle .navbar-brand {
+    color: #777;
+}
+.navbar-mystyle .navbar-brand:hover,
+.navbar-mystyle .navbar-brand:focus {
+    color: #5E5E5E;
+}
+/* link */
+.navbar-mystyle .navbar-nav > li > a {
+    color: #777;
+}
+.navbar-mystyle .navbar-nav > li > a:hover,
+.navbar-mystyle .navbar-nav > li > a:focus {
+    color: #333;
+}
+.navbar-mystyle .navbar-nav > .active > a,
+.navbar-mystyle .navbar-nav > .active > a:hover,
+.navbar-mystyle .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+.navbar-mystyle .navbar-nav > .open > a,
+.navbar-mystyle .navbar-nav > .open > a:hover,
+.navbar-mystyle .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+/* caret */
+.navbar-mystyle .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+.navbar-mystyle .navbar-nav > .dropdown > a:hover .caret,
+.navbar-mystyle .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-mystyle .navbar-nav > .open > a .caret,
+.navbar-mystyle .navbar-nav > .open > a:hover .caret,
+.navbar-mystyle .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* mobile version */
+.navbar-mystyle .navbar-toggler {
+    border-color: #DDD;
+}
+.navbar-mystyle .navbar-toggler:hover,
+.navbar-mystyle .navbar-toggler:focus {
+    background-color: #DDD;
+}/*
+
+
+
+/*==================================================
+ * Header.php
+ *=================================================*/
+header{
+
+}
+
+
+/*==================================================
+ * Index.php
+ *=================================================*/
+
+
+/*==================================================
+ * Single.php
+ *=================================================*/
+
+
+/*==================================================
+ * Page.php
+ *=================================================*/
+
+
+ /*==================================================
+  * Footer.php
+  *=================================================*/
+footer{
+
+}
+.developer-footer{
+
+}
+
+
+/*==================================================
+ * Other
+ *=================================================*/
+ /*=============
+  * #######
+  *=============*/
+
+
+ /*==================================================
+  * Responsive - Media Queries
+  *=================================================*/
