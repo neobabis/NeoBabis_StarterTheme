@@ -5,7 +5,7 @@ Author: Neokazis Charalampos
 
 Description:
 
-Just a Simple-Personal-Starter-Bootstrap-Theme for WordPress.
+> Just a Simple-Personal-Starter-Bootstrap-Theme for WordPress.
 
 Version: 1.0
 
