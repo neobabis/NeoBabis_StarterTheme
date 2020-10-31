@@ -1,9 +1,9 @@
 /*
-Theme Name: NeoBabis_StarterTheme
+Theme Name: BASICTheme
 Author: CreateMySite.gr
 Author URI: CreateMySite.gr
 Author: Neokazis Charalampos
-Description: Just a Simple Personal Starter Bootstrap Theme for WordPress
+Description: A Basic Wordpress Bootstrap Theme
 Version: 1.0
 */
 /*
@@ -12,7 +12,7 @@ Version: 1.0
  *  Brikes tpt endiaferon kai mphkes na psakseis?               *
  *                                                              *
  *  E.. kalo psaksimo.                                          *
- *  ...kai ama mporw na boh8hsw kapws steile kana mail! :-)     *
+ *  ...kai ama mporw na boh8hsw kapws steile kana mail ; - )    *
  *                        CreateMySite.gr                       *
  *  ==========================================================  *
  */
@@ -23,17 +23,26 @@ Version: 1.0
 }
 
 body {
-	font-family: 'Roboto Slab', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
-/*
-h1{font-size: 1.6em; font-weight: bold;}
-h2{font-size: 1.5em;}
-h3{font-size: 1.4em;}
-p{font-size: 1.3em;}
-h4{font-size: 1.2em;}
-small{font-size: .9em;}
-.navbar {	font-size: 75%;}
-*/
+html{
+	font-size: 62.5%;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: bold; /* bold=700, normal=400 */
+}
+
+h1{font-size: 3.2rem;}
+h2{font-size: 2.4rem;}
+h3{font-size: 1.87rem;}
+h4{font-size: 1.6rem;}
+h5{font-size: 1.33rem;}
+h6{font-size: 1.07rem;}
+small{font-size: 1.33rem;}
+p, blockquote, li{font-size: 1.6rem; line-height: 1.5;}
+/*.navbar {font-size: 75%;}*/
+
 
 
 /*==================================================
