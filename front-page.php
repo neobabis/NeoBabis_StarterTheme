@@ -4,8 +4,8 @@
  * @package NeoBabis_StarterTheme
  */
 ?>
-<?php get_header();?>
+<?php get_header(); ?>
 
   <h1>================= FRONT-PAGE.php =================</h1>
 
-<?php get_footer();?>
+<?php get_footer(); ?>
