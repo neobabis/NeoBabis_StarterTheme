@@ -3,6 +3,7 @@
  * Creator's Admin Page : CreateMySite.gr, Neokazis Charalampos
  * @package NeoBabis_StarterTheme
  */
+
 function any_theme_add_admin_page( $src ) {
     add_menu_page( 'Developer Neokazis Details', 'Neokazis Details', 'read', 'neokazis-details', 'any_theme_create_admin_page', 'dashicons-id-alt', 110 );
 }
@@ -26,5 +27,3 @@ function any_theme_create_admin_page(){
 
   echo '<br><br><div style="text-align: center;"><h2>Thank you!</h2></div>';
 }
-
-?>
