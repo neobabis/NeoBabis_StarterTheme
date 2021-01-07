@@ -3,9 +3,9 @@
  * Single Template render a single post
  * @package NeoBabis_StarterTheme
  */
-?>
 
-<?php get_header(); ?>
+get_header();
+?>
 
   <h1>================= SINGLE.php =================</h1>
 <?php
@@ -18,4 +18,5 @@ if ( have_posts() ) :
 endif;
 ?>
 
-<?php get_footer(); ?>
+<?php
+get_footer();
