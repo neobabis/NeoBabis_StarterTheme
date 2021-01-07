@@ -3,8 +3,9 @@
  * Index Page for blog posts
  * @package NeoBabis_StarterTheme
  */
+
+get_header();
 ?>
-<?php get_header(); ?>
 
   <h1>================= INDEX.php =================</h1>
 
@@ -26,4 +27,5 @@
   <?php //get_sidebar( 'footer' ); ?>
 
 
-<?php get_footer(); ?>
+<?php
+get_footer();
