@@ -3,9 +3,7 @@
  * Functions
  * @package BASICTheme
  */
-?>
 
-<?php
 
 /**
 * Register core functions
@@ -91,6 +89,3 @@ function reorder_javascripts() {
 	wp_enqueue_script( 'bootstrap-script', get_template_directory_uri() . '/js/bootstrap.min.js', array( 'jquery' ), true );
 }
 add_action( 'wp_enqueue_scripts', 'reorder_javascripts' );
-
-
-?>
