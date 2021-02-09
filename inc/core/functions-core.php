@@ -57,6 +57,14 @@ function BASICTheme_Core_setup(){
     add_filter( 'show_admin_bar','__return_false' );
 }
 
+/**
+ * Change the "Default template" name
+ */
+function change_default_page_template_title()
+{
+    return __('Contained-width layout', 'textdomain');
+}
+add_filter('default_page_template_title', 'change_default_page_template_title', 10, 2);
 
 /**
 * Disable the emojis
