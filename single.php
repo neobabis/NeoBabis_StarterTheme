@@ -8,15 +8,21 @@ get_header();
 ?>
 
   <h1>================= SINGLE.php =================</h1>
-<?php
-if ( have_posts() ) :
-  while ( have_posts() ) : the_post();
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <?php
+      if (have_posts()) :
+        while (have_posts()) : the_post();
 
-    get_template_part( 'content', 'single' );
+          get_template_part('content', 'single');
 
-  endwhile;
-endif;
-?>
+        endwhile;
+      endif;
+      ?>
+    </div>
+  </div>
+</div>
 
 <?php
 get_footer();
