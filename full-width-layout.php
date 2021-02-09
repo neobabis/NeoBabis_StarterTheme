@@ -3,7 +3,7 @@
 /**
  * Template Name: Full-width layout
  * Template Post Type: post, page
- * @package NeobabisTheme
+ * @package BASICTheme
  */
 
 get_header();
